@@ -42,4 +42,7 @@ public class Level_Generation : MonoBehaviour
             Instantiate(platform, new Vector3(posX, posY, 0.0f), Quaternion.identity);
         }   
     }
+    void DestroyPlatforms(){
+        
+    }
 }

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Level_Object
+  - Level_Generator
+  - Physics
   layers:
   - Default
   - TransparentFX
