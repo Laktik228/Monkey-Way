@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2351642930521319013}
   - component: {fileID: 2351642930521319012}
   m_Layer: 0
-  m_Name: beergreenbottle
+  m_Name: TestItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.05
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
