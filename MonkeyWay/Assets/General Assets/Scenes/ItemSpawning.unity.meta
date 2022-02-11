@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:MonkeyWay/Assets/AstarPathfindingProject/Documentation.meta
+guid: 756b1936d12ae48858c9b6597c2cdb3f
+folderAsset: yes
+=======
 guid: 9d7d10c1b1f585144887077573373638
+>>>>>>> 351f9c979a32d4ddff8e14de190564b5a3738b1c:MonkeyWay/Assets/General Assets/Scenes/ItemSpawning.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
