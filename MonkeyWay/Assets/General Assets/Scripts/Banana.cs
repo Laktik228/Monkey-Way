@@ -9,6 +9,6 @@ public class Banana : MonoBehaviour
 
     void Start()
     {
-        rb.velocity = transform.right * speed;
+        // rb.velocity = transform.rotation * speed;
     }
 }
