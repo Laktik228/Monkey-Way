@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class EndChangeScene : MonoBehaviour
 {
     public void ChangeScene(){
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
