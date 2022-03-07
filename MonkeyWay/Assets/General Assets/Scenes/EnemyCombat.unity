@@ -255,11 +255,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 324263602}
-  attackpoint: {fileID: 0}
-  attackRange: 0.5
+  attackpoint: {fileID: 1918983866}
+  attackRange: 0.6
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
+  attackDamage: 20
 --- !u!1001 &1165167668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -321,6 +322,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ae156afe7a8b554cba858e92cc1e871, type: 3}
+--- !u!4 &1918983866 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9115023633349692265, guid: 8ae156afe7a8b554cba858e92cc1e871, type: 3}
+  m_PrefabInstance: {fileID: 1165167668}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1929881342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -380,12 +386,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: EvilNinjaMonkey
       objectReference: {fileID: 0}
+    - target: {fileID: 5002286849213972008, guid: 94827d791ebce054abe75b7355161ddb, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5002286849213972010, guid: 94827d791ebce054abe75b7355161ddb, type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94827d791ebce054abe75b7355161ddb, type: 3}
+--- !u!1 &2015981335 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5002286849213972008, guid: 94827d791ebce054abe75b7355161ddb, type: 3}
+  m_PrefabInstance: {fileID: 1929881342}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2015981337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015981335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9daec97d3fa670408b35090776af082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2015981338}
+  maxHealth: 100
+--- !u!95 &2015981338 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5002286849213972011, guid: 94827d791ebce054abe75b7355161ddb, type: 3}
+  m_PrefabInstance: {fileID: 1929881342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2046152559
 GameObject:
   m_ObjectHideFlags: 0
