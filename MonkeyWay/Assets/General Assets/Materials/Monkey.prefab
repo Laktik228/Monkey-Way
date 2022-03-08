@@ -46,6 +46,8 @@ GameObject:
   - component: {fileID: 6123820685471296018}
   - component: {fileID: 6123820685471296020}
   - component: {fileID: 6123820685471296021}
+  - component: {fileID: 3735687731917662569}
+  - component: {fileID: 777789476022860711}
   m_Layer: 0
   m_Name: Monkey
   m_TagString: Untagged
@@ -258,6 +260,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3735687731917662569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6123820685471296045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea3f16abcd6cc140b5d7931485c4f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6123820685471296021}
+  attackpoint: {fileID: 9115023633349692265}
+  attackRange: 0.6
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  attackDamage: 20
+--- !u!114 &777789476022860711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6123820685471296045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fcf5eaedc77114d9357b97bb5b345f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 3
 --- !u!1 &6123820686191308193
 GameObject:
   m_ObjectHideFlags: 0

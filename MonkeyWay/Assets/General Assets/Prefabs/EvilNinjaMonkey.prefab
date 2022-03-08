@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 5002286849213972010}
   - component: {fileID: 5002286849213972011}
   - component: {fileID: 5002286849213971921}
+  - component: {fileID: 5315384841356891260}
   m_Layer: 0
   m_Name: EvilNinjaMonkey
   m_TagString: Untagged
@@ -149,11 +150,11 @@ BoxCollider2D:
   m_GameObject: {fileID: 5002286849213972008}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 89bfaa111dfac10429f5dac44dca972c, type: 2}
-  m_IsTrigger: 0
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05839979, y: 0.0957311}
+  m_Offset: {x: 0.045803066, y: -0.013976395}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -164,7 +165,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19581287, y: 0.18049066}
+  m_Size: {x: 0.2210063, y: 0.51747596}
   m_EdgeRadius: 0
 --- !u!58 &5002286849213972010
 CircleCollider2D:
@@ -173,9 +174,9 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002286849213972008}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 89bfaa111dfac10429f5dac44dca972c, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -216,6 +217,20 @@ MonoBehaviour:
   controller: {fileID: 0}
   animator: {fileID: 5002286849213972011}
   runSpeed: 40
+--- !u!114 &5315384841356891260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002286849213972008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9daec97d3fa670408b35090776af082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 5002286849213972011}
+  maxHealth: 100
 --- !u!1 &5002286849615674854
 GameObject:
   m_ObjectHideFlags: 0
