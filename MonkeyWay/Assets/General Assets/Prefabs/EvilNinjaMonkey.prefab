@@ -46,6 +46,8 @@ GameObject:
   - component: {fileID: 5002286849213972011}
   - component: {fileID: 5002286849213971921}
   - component: {fileID: 5315384841356891260}
+  - component: {fileID: 2836744101974006114}
+  - component: {fileID: 8317668019161614097}
   m_Layer: 0
   m_Name: EvilNinjaMonkey
   m_TagString: Untagged
@@ -231,6 +233,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 5002286849213972011}
   maxHealth: 100
+--- !u!61 &2836744101974006114
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002286849213972008}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0537419, y: -0.02388528}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.29366383, y: 0.52057374}
+  m_EdgeRadius: 0
+--- !u!114 &8317668019161614097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002286849213972008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d5c1bf093c8b4dabf299f2eadc36e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCoolDown: 1
+  range: 1.6
+  damage: 1
+  colliderDistance: 0.15
+  boxCollider: {fileID: 2836744101974006114}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  animator: {fileID: 5002286849213972011}
 --- !u!1 &5002286849615674854
 GameObject:
   m_ObjectHideFlags: 0
