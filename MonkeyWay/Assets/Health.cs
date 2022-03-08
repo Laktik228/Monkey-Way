@@ -17,13 +17,11 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float _damage)
     {
-        Debug.Log("Player damaged");
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
         
         if(currentHealth > 0)
         {
             anim.SetTrigger("hurt");
-            Debug.Log("Player damaged");
         }
         else 
         {
