@@ -9,6 +9,7 @@ public class EnemySpawnerScript : MonoBehaviour
     Vector2 whereToSpawn;
     public float spawnRate = 2f;
     float nextSpawn = 0.0f;
+    public float spawnRange = 5f;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class EnemySpawnerScript : MonoBehaviour
         if (Time.time > nextSpawn)
         {
             nextSpawn = Time.time + spawnRate;
-            randX = Random.Range(-2f, 2f);
+            randX = Random.Range((transform.position.x - spawnRange),(transform.position.x + spawnRange) );
             whereToSpawn = new Vector2 (randX, transform.position.y);
             Instantiate (enemy, whereToSpawn, Quaternion.identity);
         }
