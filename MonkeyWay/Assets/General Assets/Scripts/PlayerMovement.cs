@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    public AudioSource monkeyJumpSound;
     void Update()
     {
 
@@ -24,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetButtonDown("Jump")) {
+            monkeyJumpSound.Play();
             jump = true;
             animator.SetBool("IsJumping", true);
 
