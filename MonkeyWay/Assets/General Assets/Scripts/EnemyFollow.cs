@@ -10,6 +10,7 @@ public class EnemyFollow : MonoBehaviour
     public float speed;
     private Transform target;
     private bool facingRight;
+    public Animator animator;
 
 
 
@@ -23,6 +24,7 @@ public class EnemyFollow : MonoBehaviour
         FacePlayer();
         var targetPos = new Vector2(target.position.x, transform.position.y);
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+        animator.SetFloat("Speed", speed);
 
     }
 
@@ -34,7 +36,7 @@ public class EnemyFollow : MonoBehaviour
             {
                 
                 facingRight = false;
-                await Task.Delay(1000);
+                await Task.Delay(1500);
                 Flip();
             }
         }
@@ -43,7 +45,7 @@ public class EnemyFollow : MonoBehaviour
             if (target.position.x < transform.position.x)
             {
                 facingRight = true;
-                await Task.Delay(1000);
+                await Task.Delay(1500);
                 Flip();
             }
         }
