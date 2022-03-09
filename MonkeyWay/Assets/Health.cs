@@ -29,6 +29,7 @@ public class Health : MonoBehaviour
             {
                 anim.SetTrigger("die");
                 GetComponent<PlayerMovement>().enabled = false;
+                GetComponent<PlayerCombat>().enabled = false;
                 dead = true;
             }
         }
