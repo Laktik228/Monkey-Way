@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:MonkeyWay/Assets/General Assets/Background_Scene/Background_jungle.png.meta
 guid: 3deb8f7ab6849534888bbf34c50b4368
+=======
+guid: 4429c39c8ff93d546ae9e2175a6d99f7
+>>>>>>> 8cbc52a47340edab02ed1dc7aa7ba12f2c4b7caf:MonkeyWay/Assets/General Assets/Sprites/Sprites_Monkey_Way/Jungle_Level_for_Monkey/Lion(BOSS)_for_Monkey_Way/Left_pos3.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,9 +36,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1

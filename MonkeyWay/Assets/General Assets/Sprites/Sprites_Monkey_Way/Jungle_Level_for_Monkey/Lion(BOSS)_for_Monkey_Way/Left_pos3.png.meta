@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3c048b4a24f66a849a96fb45c93389b9
+=======
+<<<<<<< HEAD:MonkeyWay/Assets/General Assets/Background_Scene/Background_jungle.png.meta
+guid: 3deb8f7ab6849534888bbf34c50b4368
+=======
+guid: 4429c39c8ff93d546ae9e2175a6d99f7
+>>>>>>> 8cbc52a47340edab02ed1dc7aa7ba12f2c4b7caf:MonkeyWay/Assets/General Assets/Sprites/Sprites_Monkey_Way/Jungle_Level_for_Monkey/Lion(BOSS)_for_Monkey_Way/Left_pos3.png.meta
+>>>>>>> 8cbc52a47340edab02ed1dc7aa7ba12f2c4b7caf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,7 +45,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
+<<<<<<< HEAD
     wrapW: 0
+=======
+    wrapW: 1
+>>>>>>> 8cbc52a47340edab02ed1dc7aa7ba12f2c4b7caf
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -61,13 +73,18 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
+<<<<<<< HEAD
   applyGammaDecoding: 1
+=======
+  applyGammaDecoding: 0
+>>>>>>> 8cbc52a47340edab02ed1dc7aa7ba12f2c4b7caf
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -93,6 +110,9 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+=======
+    textureCompression: 1
+>>>>>>> 8cbc52a47340edab02ed1dc7aa7ba12f2c4b7caf
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
