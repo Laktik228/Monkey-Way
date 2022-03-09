@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/General Assets/Scenes/StartingScene.unity
     guid: 3191066e5ac9d60459bf0f1ef5ed343d
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/General Assets/Scenes/JungleLevel.unity
-    guid: ba59aaed29bb06449a0fd8ec49b3c799
+    guid: c31bc3999c7de2548957489610f118e2
   - enabled: 1
     path: Assets/General Assets/Scenes/EndingScene.unity
     guid: e6b2295dff340b3419228291537fbea9
