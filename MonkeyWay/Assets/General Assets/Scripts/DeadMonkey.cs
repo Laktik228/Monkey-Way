@@ -16,5 +16,9 @@ public class DeadMonkey : MonoBehaviour
             SceneManager.LoadScene(2);
         }
 
+        if (GetComponent<Transform>().position.x >= 312){
+                SceneManager.LoadScene(2);
+            }
+
     }
 }
